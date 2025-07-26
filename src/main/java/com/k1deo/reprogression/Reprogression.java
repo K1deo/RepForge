@@ -1,7 +1,10 @@
 package com.k1deo.reprogression;
 
+import com.k1deo.reprogression.item.ModCreativeModTabs;
+import com.k1deo.reprogression.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -24,6 +27,10 @@ public class Reprogression
     public Reprogression(FMLJavaModLoadingContext context) {
         IEventBus modEventBus = context.getModEventBus();
 
+        ModCreativeModTabs.register(modEventBus);
+
+        ModItems.register(modEventBus);
+
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
@@ -37,7 +44,10 @@ public class Reprogression
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-
+//        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+//            event.accept(ModItems.LEATHER_FRAGMENT);
+//            event.accept(ModItems.DIAMOND_UPGRADE_SMITHING_TEMPLATE);
+//        }
     }
 
     @SubscribeEvent

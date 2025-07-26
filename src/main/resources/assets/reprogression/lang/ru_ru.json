@@ -1,0 +1,7 @@
+{
+  "item.reprogression.leather_fragment": "Обрывки кожи",
+  "item.reprogression.diamond_upgrade_smithing_template" : "Кузнечный шаблон",
+  "item.reprogression.diamond_upgrade_smithing_template.description": "Используется для улучшения предметов до алмазного уровня",
+
+  "creativetab.reprogression_tab" : "Reprogression | Предметы"
+}

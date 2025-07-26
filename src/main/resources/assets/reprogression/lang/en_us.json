@@ -1,0 +1,7 @@
+{
+  "item.reprogression.leather_fragment": "Leather Fragment",
+  "item.reprogression.diamond_upgrade_smithing_template" : "Upgrade Template",
+  "item.reprogression.diamond_upgrade_smithing_template.description": "Used to upgrade items to diamond tier",
+
+  "creativetab.reprogression_tab" : "Reprogression | Items"
+}
