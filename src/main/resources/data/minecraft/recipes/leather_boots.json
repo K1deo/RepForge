@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "a a",
+    "a a"
+  ],
+  "key": {
+    "a": { "item": "reprogression:leather_fragment" }
+  },
+  "result": {
+    "item": "minecraft:leather_boots"
+  }
+}
