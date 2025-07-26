@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "reprogression:diamond_upgrade_smithing_template"
+  },
+  "base": {
+    "item": "minecraft:iron_shovel"
+  },
+  "addition": {
+    "item": "minecraft:diamond"
+  },
+  "result": {
+    "item": "minecraft:diamond_shovel"
+  }
+}

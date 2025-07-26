@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aba",
+    "c c"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_nugget"
+    },
+    "b": {
+      "item": "minecraft:iron_ingot"
+    },
+    "c": {
+      "item": "minecraft:chain"
+    }
+  },
+  "result": {
+    "item": "minecraft:chainmail_helmet",
+    "count": 1
+  }
+}

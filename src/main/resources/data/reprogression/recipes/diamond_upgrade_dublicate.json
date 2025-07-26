@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BAB",
+    "BCB",
+    "BBB"
+  ],
+  "key": {
+    "A": {
+      "item": "reprogression:diamond_upgrade_smithing_template"
+    },
+    "B": {
+      "item": "minecraft:emerald"
+    },
+    "C": {
+      "item": "minecraft:deepslate"
+    }
+  },
+  "result": {
+    "item": "reprogression:diamond_upgrade_smithing_template",
+    "count": 2
+  }
+}
