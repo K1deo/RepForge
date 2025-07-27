@@ -1,7 +1,11 @@
 {
   "item.reprogression.leather_fragment": "Leather Fragment",
-  "item.reprogression.diamond_upgrade_smithing_template" : "Upgrade Template",
-  "item.reprogression.diamond_upgrade_smithing_template.description": "Used to upgrade items to diamond tier",
+  "item.reprogression.diamond_upgrade_smithing_template.base" : "Insert Iron Armor, Tool or Weapon",
+  "item.reprogression.diamond_upgrade_smithing_template.applies_to": "§3Iron Gear",
+  "item.reprogression.diamond_upgrade_smithing_template.ingredients": "§3Diamond",
+  "item.reprogression.diamond_upgrade_smithing_template.desc": "Diamond upgrade",
+  "item.reprogression.diamond_upgrade_smithing_template.material": "Insert Diamond",
 
   "creativetab.reprogression_tab" : "Reprogression | Items"
+
 }

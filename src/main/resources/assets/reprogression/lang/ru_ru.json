@@ -1,7 +1,10 @@
 {
   "item.reprogression.leather_fragment": "Обрывки кожи",
-  "item.reprogression.diamond_upgrade_smithing_template" : "Кузнечный шаблон",
-  "item.reprogression.diamond_upgrade_smithing_template.description": "Используется для улучшения предметов до алмазного уровня",
+  "item.reprogression.diamond_upgrade_smithing_template.base" : "Поместите Железную Броню, Инструмент или Оружие",
+  "item.reprogression.diamond_upgrade_smithing_template.applies_to": "§3Железному снаряжению",
+  "item.reprogression.diamond_upgrade_smithing_template.ingredients": "§3Алмаз",
+  "item.reprogression.diamond_upgrade_smithing_template.desc": "Алмазное улучшение",
+  "item.reprogression.diamond_upgrade_smithing_template.material": "Поместите Алмаз",
 
   "creativetab.reprogression_tab" : "Reprogression | Предметы"
 }

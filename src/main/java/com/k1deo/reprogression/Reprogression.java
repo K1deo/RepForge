@@ -1,7 +1,9 @@
 package com.k1deo.reprogression;
 
+import com.k1deo.reprogression.datagen.ModDataGenerators;
 import com.k1deo.reprogression.item.ModCreativeModTabs;
 import com.k1deo.reprogression.item.ModItems;
+import com.k1deo.reprogression.loot.ModLootModifiers;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -31,6 +33,9 @@ public class Reprogression
 
         ModItems.register(modEventBus);
 
+        ModLootModifiers.register(modEventBus);
+
+        modEventBus.addListener(ModDataGenerators::gatherData);
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
