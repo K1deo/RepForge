@@ -41,7 +41,7 @@ public class ModItems {
                         ResourceLocation.parse("minecraft:item/empty_slot_hoe")
                 ),
                 List.of(
-                        ResourceLocation.parse("minecraft:item/empty_slot_ingot")
+                        ResourceLocation.parse("minecraft:item/empty_slot_diamond")
                 )
         );
     }

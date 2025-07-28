@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aba",
+    "a a"
+  ],
+  "key": {
+    "a": [{ "item": "reprogression:leather_fragment" },{ "item": "minecraft:rabbit_hide" }],
+    "b": { "item": "minecraft:leather" }
+  },
+  "result": {
+    "item": "minecraft:leather_helmet"
+  }
+}
